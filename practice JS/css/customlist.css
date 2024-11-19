@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+*, *::after,*::before {box-sizing:border-box;}
+#wrapper {width:700px; margin:30px auto;}
+h2 {text-align: center; margin-bottom:20px;}
+form {background: #ffc830; padding:30px 40px; color:#fff; text-align: center; border-radius:10px 10px 0 0; }
+input {border:none; width:520px; padding:10px; float:left; font-size:16px; border-radius:10px; color: #ffaf1a;}
+
+.addBtn {padding:10px; width:70px; border:none; background: #fff; box-shadow: 0 0 2px #aa6e00; color:#ae4300; text-align:center; font-size:14px; cursor: pointer; border-radius:10px;}
+
+ul li {cursor: pointer; position:relative; padding:12px 8px 12px 50px; font-size:16px; transition: 0.2s;}
+ul li:hover {background: #ffe9bb;}
+
+.close {position:absolute; right:0; top:0; padding:12px 16px; border:none; background: rgba(255, 255, 255, 0);}
+.colse:hover {cursor: pointer;}
